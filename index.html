@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html title="HTML Document">
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,12 +6,12 @@
     <title>The Cloud Resume Challenge</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="body">
 
-    <nav class="navbar">
-        <h1>Resume </h1>
-        <div class="navbar-items h-class">
-            <ul class="nav v-class">
+    <nav class="navbar" id="navbar">
+        <h1 id="navbar-title">Resume </h1>
+        <div class="navbar-items" id="navbar-items">
+            <ul class="nav" id="nav">
                 <li><a href="#Profile">Home</a></li>
                 <li><a href="#Profile">About me</a></li>
                 <li><a href="#Experience">Experience</a></li>
@@ -24,15 +24,15 @@
         
 
 
-    <div class="container">
-        <div class="profile">
-            <div class ="profile_container">
-                <div class="profile_profileimg">
-                    <img src="donnah.jpg" alt=""width="127px">
-                    <div>
-                        <h1 class="profile_name">Donnah Sasaka Metah</h1>
-                        <p class="profile_title">Cloud/Devops/AWS</p>
-                        <p class="desc">Data driven ambitious fresher in the cloud computing devops space with keen interest in growing and getting skilled in AWS.Looking to pivot to the tech space.</p>
+    <div class="container" id="container">
+        <div class="profile" id="profile">
+            <div class ="profile_container" id="profile-container">
+                <div class="profile_profileimg" id="profile-img">
+                    <img src="img/donnah.jpg" alt="profile_picture" id="profile-picture">
+                    <div id="profile-info">
+                        <h1 class="profile_name" id="profile-name">Donnah Sasaka Metah</h1>
+                        <p class="profile_title" id="profile-title">Cloud/Devops/AWS</p>
+                        <p class="desc" id="profile-desc">Data driven ambitious fresher in the cloud computing devops space with keen interest in growing and getting skilled in AWS.Looking to pivot to the tech space.</p>
                         <a class="download" href="./cv pdf"download="Resume.pdf">Download</a>
                     </div>
 
@@ -43,7 +43,7 @@
 </section>
 
     <hr>
-    <section id="Profile">
+    <section id="Profile" class="section profile-section">
 
         <h2>Profile</h2>
         <p></p>
@@ -51,7 +51,7 @@
 
     <hr>
 
-    <section id ="Experience">
+    <section id ="Experience" class="section experience-section">
         <div class="sectionTitle">
             <h1>Work Experience</h1>
         </div>
@@ -100,7 +100,7 @@
 
             <hr>
 
-            <sectio id="Education">
+            <section id="Education"  class="section education-section">
                 <div class="sectionTitle">
                     <h1>Education</h1>
                 </div>
@@ -117,7 +117,7 @@
 
             <hr>
 
-    <section id="Project">
+    <section id="Project" class="section project-section">
             <h1>Projects</h1>
 
         <div class="sectionContent">
@@ -125,8 +125,11 @@
                 <h2 class="sectioncontent">Cloud Resume Challenge</h2>
                     <p class="project-font">Created a static website to host my resume.Built to gain paractical skills earned through the cloud foundational course by participating in Forrest Brazeal's Cloud Resume Challenge.</p>
 
-                    <li>Built a site using HTML/CSS </li>
-                    <li>Deployed the website using CloudFront and S3.</li>
+                <ul>
+                <li>Built a site using HTML/CSS </li>
+                <li>Deployed the website using CloudFront and S3.</li>
+                </ul>
+                    
 
         </div>
         <div class="clear"></div>
@@ -135,7 +138,7 @@
     <hr>
     
     
-    <section id="Certification">
+    <section id="Certification" class="section certification-section">
         <div class="sectionTitle">
             <h1>Certification</h1>
         </div>
@@ -144,11 +147,11 @@
             <article>
                 <a href="https://www.credly.com/badges/ae4562b5-718b-49fd-ae5d-9fa95d0c3b68"
                         class="sectionContent">
-                <img src="clf-02.png" alt="" width="150" height="150">
+                <img src="img/clf-02.png" alt="" width="150" height="150">
 
                 <a href="https://www.credly.com/badges/ccc29d56-8480-4d6a-9c1e-6a2b92873630"
                 class="sectionContent">
-        <img src="quest.png" alt="" width="150" height="150">
+        <img src="img/quest.png" alt="" width="150" height="150">
 
 
             </article>
@@ -158,7 +161,7 @@
    
     <hr>
 
-    <section id="Skills">
+    <section id="Skills" class="section skills-section">
         <div class="sectionTitle">
             <h1>Skills/Technology</h1>
         </div>
@@ -178,7 +181,7 @@
     </section>
 </body>
 <hr>
-&lt;&lt;&lt; &copy;Donnah Sasaka &gt;&gt;&gt;
+&copy;Donnah Sasaka Metah
 <p>
     <a href="/">Back to Top</a>
 </p>
